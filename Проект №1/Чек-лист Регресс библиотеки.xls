@@ -1,0 +1,173 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta name="author" content="dev.sitechco.ru" />
+    </head>
+<table  border="1">
+    <tr>
+        <td colspan="4">Название (Аббр.): Регресс библиотеки (ABB)</td>
+    </tr>
+    <tr>
+        <td colspan="4">Описание: </td>
+    </tr>
+            <tr>
+        <td colspan="4">Статус: Не согласован </td>
+    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Отзывы</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;"></td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            1        </td>
+        <td>
+            Высокий        </td>
+        <td>Возможность оставить отзыв, используя валидные значения в имени</td>
+                <td>Может содержать кириллицу, латиницу и специальные символы.</td>
+                    </tr>
+        <tr>
+        <td>
+            2        </td>
+        <td>
+            Средний        </td>
+        <td>Возможность добавить отзыв, используя невалидные значения в имени</td>
+                <td>Система не примет ввод символов, не прописанных в ТЗ</td>
+                    </tr>
+        <tr>
+        <td>
+            3        </td>
+        <td>
+            Высокий        </td>
+        <td>Возможность оставить отзыв, используя валидные значения в отзыве</td>
+                <td>Допускается кириллица и латиница, а также точки, запятые, восклицательные знаки, тире и пробелы в тексте отзыва (поле является необязательным для заполнения)</td>
+                    </tr>
+        <tr>
+        <td>
+            4        </td>
+        <td>
+            Высокий        </td>
+        <td>Возможность отправить отзыв с рейтингом</td>
+                <td>Система примет отзыв и он отразится на сайте</td>
+                    </tr>
+        <tr>
+        <td>
+            5        </td>
+        <td>
+            Средний        </td>
+        <td>Возможность отправить отзыв без рейтинга</td>
+                <td>Отправить отзыв без рейтинга нельзя, система не примет такого действия</td>
+                    </tr>
+            <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+                <td></td>
+                    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Взаимодействие с книгой</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;"></td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            6        </td>
+        <td>
+            Высокий        </td>
+        <td>Возможность добавить книгу, используя валидые значения в названии</td>
+                <td>Допускается кириллица и латиница, а также точки, запятые, восклицательные знаки, тире и пробелы.</td>
+                    </tr>
+        <tr>
+        <td>
+            7        </td>
+        <td>
+            Средний        </td>
+        <td>Возможность добавить книгу, не заполняя название</td>
+                <td>Название книги не может быть пустым. Если оно пустое, то показывается ошибка «Введите название книги».</td>
+                    </tr>
+        <tr>
+        <td>
+            8        </td>
+        <td>
+            Высокий        </td>
+        <td>Возможность добавить книгу, используя валидые значения в описании</td>
+                <td>Допускается кириллица и латиница, а также точки, запятые, восклицательные знаки, тире и пробелы (поле является необязательным для заполнения)</td>
+                    </tr>
+        <tr>
+        <td>
+            9        </td>
+        <td>
+            Высокий        </td>
+        <td>Возможность добавить обложку книги</td>
+                <td>Книга может быть опубликована без обложки, тогда отображается дефолтная картинка.</td>
+                    </tr>
+        <tr>
+        <td>
+            10        </td>
+        <td>
+            Высокий        </td>
+        <td>Возможность удалить книгу (с портала администратора)</td>
+                <td>Книга удаляется из общего списка и больше не отображается у пользователей</td>
+                    </tr>
+            <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+                <td></td>
+                    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Просмотр отзыва</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;"></td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            11        </td>
+        <td>
+            Высокий        </td>
+        <td>Отображение оставленного отзыва</td>
+                <td>[Имя] добавил(а) отзыв:<br />
+[Текст отзыва]</td>
+                    </tr>
+            </table>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript"> 
+(function (d, w, c) { (w[c] = w[c] || []).push(function() {
+	try { w.yaCounter43980704 = new Ya.Metrika({
+			id:43980704,
+			clickmap:true,
+			trackLinks:true,
+			accurateTrackBounce:true
+		}); }
+	catch(e) { } });
+	var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); };
+	s.type = "text/javascript"; s.async = true;
+	s.src = "https://mc.yandex.ru/metrika/watch.js";
+	if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); }
+	else { f(); } })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/43980704" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
