@@ -58,7 +58,7 @@ Postman, SQL, Qase.io, Jira, Confluence, Trello, Curl, JMeter, SoapUI, Mockoon, 
 5. Тестирование API.
 
 
-### Ссылка на проект: ###
+### Ссылка на проект: ### https://github.com/YanaMilakina/portfolio/tree/main/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%E2%84%962
 
 
 ### Выводы: ### 
