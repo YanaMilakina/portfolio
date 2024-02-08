@@ -3,7 +3,7 @@
 В этом репозитории вы можете найти некоторые из моих проектов, над которыми я работала в процессе обучения. 
 
 ## Мои навыки ##
-Postman, SQL, Qase.io, Jira, Confluence, Trello, Curl, JMeter, SoapUI, Mockoon, Miro.
+API, Postman, SQL, Qase.io, Sitechko, Jira, Confluence, JMeter, Miro, pgAdmin, Chrome DevTools, Android studio, Check-list, Test case.
 
 ## Проекты ##
 Проект №1: Тестирование сайта библиотеки. 
